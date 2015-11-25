@@ -16,7 +16,7 @@
   "license": "MIT",
   "repositorty": {
     "type": "git",
-    "url": "https://github.com/mthomson19/myfirstmeanapp.git"
+    "url": "https://github.com/mthomson19/MyFirstMeanApplication.git"
   },
   "dependencies": {
 		"express": "~4.8.8",

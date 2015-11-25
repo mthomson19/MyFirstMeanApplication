@@ -19,7 +19,7 @@ var UserSchema = new Schema({
 		type: String,
 		// Set a unique 'username' index
 		unique: true,
-		// Validate 'username' value existence
+		// Validate 'username' value existance
 		required: 'Username is required',
 		// Trim the 'username' field
 		trim: true
@@ -28,6 +28,7 @@ var UserSchema = new Schema({
 		type: String,
 		// Validate the 'password' value length
 		validate: [
+
 			function(password) {
 				return password && password.length > 6;
 			}, 'Password should be longer'
