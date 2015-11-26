@@ -8,7 +8,7 @@ var app = require('../../server.js'),
 	User = mongoose.model('User'),
 	Article = mongoose.model('Article');
 
-// Define global test variables
+// Define global variables
 var user, article;
 
 // Create an 'Article' model test suite
