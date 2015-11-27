@@ -47,7 +47,7 @@ describe('Article Model Unit Tests:', function() {
 
 		it('Should not be able to save an article without a title', function() {
 			article.title = '';
-
+			
 			article.save(function(err) {
 				should.exist(err);
 			});
