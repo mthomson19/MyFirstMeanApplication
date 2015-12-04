@@ -3,7 +3,7 @@
 
 // Set the 'development' environment configuration object
 module.exports = {
-	db: 'mongodb://localhost/mean-development',
+	db: 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
 	sessionSecret: 'developmentSessionSecret',
 	facebook: {
 		clientID: '1661927620755219',
